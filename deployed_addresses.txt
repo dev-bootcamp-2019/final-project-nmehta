@@ -1,0 +1,8 @@
+Deployed to ropsten
+
+Deploying 'Marketplace'
+Contract address:    0x0452e51A19a6c1E14695f59dbf5728E773d328f6
+Aaccount:            0x7DEEb460fee540E60bb33F7677CF2e8dd2a7487e
+
+Etherscan:
+https://ropsten.etherscan.io/address/0x7deeb460fee540e60bb33f7677cf2e8dd2a7487e

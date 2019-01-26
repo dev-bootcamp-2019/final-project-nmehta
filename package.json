@@ -16,10 +16,11 @@
     "openzeppelin-solidity": "^2.1.1"
   },
   "devDependencies": {
-    "lite-server": "^2.3.0",
     "ethlint": "^1.2.2",
-    "truffle": "^5.0.0",
+    "lite-server": "^2.3.0",
     "mocha": "^5.2.0",
-    "truffle-assertions": "^0.7.2"
+    "truffle": "^5.0.0",
+    "truffle-assertions": "^0.7.2",
+    "truffle-hdwallet-provider": "^1.0.2",
   }
 }
