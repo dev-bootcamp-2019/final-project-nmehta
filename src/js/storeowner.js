@@ -62,10 +62,8 @@ App = {
             await App.updateOwnerBalance(account);
 
             let mp_contract = await App.contracts.Marketplace.deployed();
-            let storeIds = await mp_contract.getOwnersStoreIds();
-            App.storeIds = storeIds;
 
-            await App.showStoreView();
+            App.showStoreView();
         }
         else {
             alert("You are not as store owner.")
@@ -78,9 +76,11 @@ App = {
         let mp_contract = await App.contracts.Marketplace.deployed();
 
         $("#sf-name-to-add").val('');
-
-        // populate list of store fronts
         $("#sf-list tbody").html('');
+
+        let storeIds = await mp_contract.getOwnersStoreIds();
+        App.storeIds = storeIds;
+
         for (let i = 0; i < App.storeIds.length; i++) {
 
             let sf = await mp_contract.getStore(App.storeIds[i]);
@@ -135,6 +135,7 @@ App = {
     },
 
     addStoreFront: async function (event) {
+
         event.preventDefault();
 
         let sf_to_add = $("#sf-name-to-add").val();
