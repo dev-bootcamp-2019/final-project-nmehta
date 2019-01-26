@@ -2,6 +2,7 @@
   "name": "final-project-nmehta",
   "version": "1.0.0",
   "description": "",
+  "repository": "final-project-nmehta",
   "main": "truffle.js",
   "directories": {
     "test": "test"
@@ -21,6 +22,6 @@
     "mocha": "^5.2.0",
     "truffle": "^5.0.0",
     "truffle-assertions": "^0.7.2",
-    "truffle-hdwallet-provider": "^1.0.2",
+    "truffle-hdwallet-provider": "^1.0.2"
   }
 }
