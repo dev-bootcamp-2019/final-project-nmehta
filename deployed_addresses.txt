@@ -6,3 +6,5 @@ Aaccount:            0x7DEEb460fee540E60bb33F7677CF2e8dd2a7487e
 
 Etherscan:
 https://ropsten.etherscan.io/address/0x7deeb460fee540e60bb33f7677cf2e8dd2a7487e
+
+I had to use npm for zeppelin libraries as version 2.1.2 is not available via ethpm
